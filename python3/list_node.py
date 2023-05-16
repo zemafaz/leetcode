@@ -1,11 +1,13 @@
 # Definition for singly-linked list.
+from typing import Self
+
 class ListNode:
     def __init__(self, val=0, next=None):
         self.val = val
         self.next = next
 
     @classmethod
-    def list_to_list_node(cls, numbers: list[int]):
+    def list_to_list_node(cls, numbers: list[int]) -> Self:
         dummy_root = ListNode(0)
         ptr = dummy_root
         for number in numbers:
