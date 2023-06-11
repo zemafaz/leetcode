@@ -54,7 +54,7 @@ func main() {
             expectedResult: 2,
         },
         "test 2": {
-            n: 6,
+                n: 6,
             index: 1,
             maxSum: 10,
             expectedResult: 3,
