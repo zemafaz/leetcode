@@ -1,7 +1,9 @@
+package leetcode;
+
 import java.util.Arrays;
 import java.util.PriorityQueue;
 
-class PathWithMinimumEffort {
+public class P1631 {
 
     private static class Args {
         public int[][] heights;
